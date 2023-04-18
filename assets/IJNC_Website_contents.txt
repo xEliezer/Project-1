@@ -1,0 +1,30 @@
+
+Navigation pages
+
+>Home page
+-cover church name
+-new here? what to expect
+-testimonials
+-sermon series insights
+-service time
+-location with plan your visit
+-contact info footer
+
+>the Church(about)
+-brief history of the church
+-mission and vision
+-Head pastor
+-Declaration of Faith
+-contact info footer
+
+>Ministries(Music, Mens, Womens, Youth, Children)
+-Leaders profile of every ministry
+-Others(Hospital, Evangelism, Follow-up)
+
+>Announcements & more
+-Upcoming sermons, gatherings
+-Service gatherings(Dbs, Sunday service, Bible studies, Midweek service, Prayer Meeting)
+
+Give
+-tithes and offering
+-form of giving
