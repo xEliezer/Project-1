@@ -34,7 +34,7 @@ section {
 header {
     width: 100%;
     height: 100vh;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-image: url(backgrounds/overlay3.png);
     background-size: cover;
     background-position: center;
@@ -72,10 +72,6 @@ header {
     align-self: center;
     justify-self: center;
 }
-.card{
-    max-width: auto;
-    max-height: auto;
-}
 
 .card a {
     max-width: 400px;
@@ -97,13 +93,17 @@ header {
     border-bottom-right-radius: 25px;
     transition: .6s;
 }
-.img_sws{
-    width: 300px;
-    height: 450px;
-}
+
 
 /* ---------Who we are-------- */
-
+hr{
+    width: 30%;
+    height: 5px;
+    border: none;
+    margin-top: 30px;
+    background-color: black !important;
+    font-size: small;
+}
 /* --------footer-------- */
 footer {
     height: 70vh;
@@ -118,4 +118,26 @@ footer {
 }
 .fa-brands:hover {
     color: #e4a204;
+}
+
+/* about us page */
+#header_about{
+    width: 100%;
+    height: auto; 
+}
+.carousel{
+    width: 80%;
+    height: auto;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.carousel-inner{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+p img{
+    width: 1240px;
+    height: auto;
+    position: ;
 }
