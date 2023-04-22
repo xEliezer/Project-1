@@ -156,9 +156,12 @@ hr{
     height: 5px;
     border: none;
     margin-top: 30px;
-    background-color: black !important;
+    background-color: rgb(0, 0, 0) !important;
     font-size: small;
 }
+
+
+
 /* --------footer-------- */
 footer {
     height: auto;
@@ -215,66 +218,59 @@ p img{
 /* Jesus page */
 #text-title {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     align-self: center;
     align-items: center;
     justify-content: center;
+    background-color: rgb(248, 239, 229);
 }
-.container-text{
-    padding: 60px;
-    margin-top: 180px;
-    margin-left: 30%;
-    box-sizing: content-box; 
-    flex-direction: row;
-    flex-basis: content;
-    z-index: 999;
+
+#Jesus-content {
+    background-color: rgb(248, 239, 229);
 }
-.img-bg{
-    width: 50%;
+.congrats {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-img{
+    width: 100%;
     height: auto;
-    background-size: cover;
+    margin: 20%;
+    margin-top: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* }
-.card-text {
+.img {
+    width: 500px;
+    height: auto;
     flex-wrap: wrap;
-    align-self: center;
-    justify-self: center;
+    overflow-wrap: auto;
+}
+.container-greetings{
+    width: 500px;
+    height: auto;
+    background-color: rgb(248, 239, 229);
+    border: 5px solid #e4a204;
+    padding: 40px;
+    margin-right: 50%;
+}
+.button-connect {
+    padding: 20px;
+    width: 100%;
+    font-weight: 500;
 }
 
-.card a {
-    max-width: 400px;
-    align-self: center;
-}
 
-.button_catch {
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-    border: 3px solid #474747;
-}
 
-.button_catch:hover {
-    color: white;
-    background-color: #e4a204;
-    border-top-left-radius: 25px;
-    border-top-right-radius: none;
-    border-bottom-right-radius: 25px;
-    transition: .6s;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
