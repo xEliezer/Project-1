@@ -277,8 +277,61 @@ p img{
     height: 300px;
 }
 
+/* our pastor page */
 
-
+#pastor-header img{
+    width: auto !important;
+    height: auto !important;
+}
+.side-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#eddie{
+    position: relative;
+}
+#eddie img{
+    width: auto;
+    height: 400px;
+}
+/* ministries */
+#header-ministry{
+    background-image: url(assets/dirty-old-retro-vintage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* music ministry */
+#music-bg{
+    height: auto;
+    background-image: linear-gradient(to right, rgb(0, 132, 255), rgb(140, 0, 255));
+}
+#img-ministry {
+    width: auto;
+    height: auto;
+}
+#img-welcome {
+    width: auto;
+    height: 160px;   
+}
+/* youth ministry */
+#youth-bg{
+    height: auto;
+    background-image: linear-gradient(to right, rgb(31, 201, 82), rgb(0, 204, 255));
+}
+/* womens ministry */
+#womens-bg{
+    height: auto;
+    background-image: linear-gradient(to right, rgb(255, 60, 223), rgb(119, 0, 255));
+}
+#mens-bg{
+    height: auto;
+    background-image: linear-gradient(to right, rgb(4, 0, 255), rgb(0, 183, 255));
+}
+#kids-bg{
+    height: auto;
+    background-image: linear-gradient(to right, rgb(250, 247, 79), rgb(255, 94, 0));
+}
 
 
 
