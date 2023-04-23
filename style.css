@@ -254,10 +254,12 @@ p img{
     padding: 40px;
     margin-right: 50%;
 }
-.button-connect {
+#button-connect {
     padding: 20px;
     width: 100%;
     font-weight: 500;
+    border: 2px solid black;
+    border-radius: 0;
 }
 
 /* im_new page */
