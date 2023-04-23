@@ -88,6 +88,7 @@ section {
     padding: 15px;
     background-color: #47474700;
     border: 2px solid #e4a204;
+    text-decoration: none;
 }
 
 .button_visit:hover {
@@ -205,7 +206,6 @@ footer nav ol{
 p img{
     width: 1240px;
     height: auto;
-    position: ;
 }
 /* history */
 .history {
@@ -276,6 +276,10 @@ p img{
     width: 100%;
     height: 300px;
 }
+#btn-connect{
+    border: 1px solid black;
+    border-radius: 0;
+}
 
 /* our pastor page */
 
@@ -333,6 +337,24 @@ p img{
     background-image: linear-gradient(to right, rgb(250, 247, 79), rgb(255, 94, 0));
 }
 
+/* visit us */
+
+#visit {
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(250, 247, 79), rgb(255, 94, 0));
+}
+#prayer {
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(79, 250, 116), rgb(3, 85, 0));
+}
+#testimony {
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(79, 153, 250), rgb(13, 0, 85));
+}
+#get-connect {
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(182, 79, 250), rgb(13, 0, 85));
+}
 
 
 

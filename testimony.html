@@ -44,10 +44,12 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a id="nav_church" class="nav-link navlink fw-semibold" href="#">CHURCH
+                    <a id="nav_church" class="nav-link navlink fw-bold text-warning" href="#">
+                        <i class="fa-regular fa-cross fa-fade fw-bold"></i> CHURCH
                         <ul class="sub-menu">
                             <li class="sub-item"><a class="nav-link navlink fw-semibold" href="Jesus.html">JESUS</a></li>
-                            <li class="sub-item"><a class="nav-link navlink fw-semibold" href="im_new.html">I'M NEW</a></li>
+                            <li class="sub-item"><a class="nav-link navlink fw-bold text-warning" href="im_new.html">
+                                <i class="fa-regular fa-cross fa-fade fw-bold"></i> I'M NEW</a></li>
                             <li class="sub-item"><a class="nav-link navlink fw-semibold" href="community.html">COMMUNITY</a></li>
                         </ul>
                     </a>
@@ -56,21 +58,20 @@
                     <a class="nav-link navlink fw-semibold" href="ministries.html">MINISTRIES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navlink fw-bold text-warning" aria-current="page" href="visitus.html">
-                        <i class="fa-regular fa-cross fa-fade fw-bold"></i> VISIT US</a>
+                    <a class="nav-link navlink fw-semibold" aria-current="page" href="visitus.html">VISIT US</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<section id="visit">
+<section id="testimony">
     <div class="container mt-5 p-5" id="visit-us">
-        <h1 class="fw-bold text-center">You are welcome here at In Jesus Name Church</h1>
+        <h1 class="fw-bold text-center text-light">Your Testimony of God.</h1>
     </div>
 </section>
 <section class="container-fluid">
     <div class="container">
-        <h2 class="fw-semibold">Visit form</h2><br>
+        <h2 class="fw-semibold">Testimonial</h2><br>
         <form class="row g-3">
             <div class="col-md-6">
               <label for="validationDefault01" class="form-label">Name</label>
@@ -84,27 +85,32 @@
               <label for="validationDefault03" class="form-label">Address</label>
               <input type="text" class="form-control" id="validationDefault03" required>
             </div>
-            <div class="col-md-6 mb-3">
-                <label for="validationDefault01" class="form-label">Date of Visit</label>
-                <input type="text" class="form-control" id="validationDefault01" required>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="validationDefault02" class="form-label">Time of Visit</label>
-                <input type="text" class="form-control" id="validationDefault02" required>
-              </div>
-              <div class="col-md-3">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Office</option>
-                    <option value="1">Main</option>
-                    <option value="2">Sattelite</option>
-                  </select>
-            </div>
             <div class="col-md-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Comments here</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Optional"></textarea>
+                <label for="exampleFormControlTextarea1" class="form-label">Testimony</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Testimony Here"></textarea>
               </div>
-            <div class="col-12">
-              <button class="btn btn-primary " type="submit">Submit visit</button>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Send Testimony
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Prayer Request success!</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Your testimony reached us. Thank you for sharing! Godbless your life.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
           </form>
         
